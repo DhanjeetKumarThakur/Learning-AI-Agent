@@ -18,19 +18,21 @@ Our Framework
 - Output format
 ```
 ---
-### MY prompt approach vs Better approach 
+### My prompt approach vs Better approach 
 #### My prompt approach 
 
+```Text
 Act as an Senior Java/Spring Boot engineer. It is Java Spring Boot Application using java 21 version to complie the code but we are using java 17 version syntax not beyond it.
 
 Compare the current branch with master to find the code changes and review the only changes following the spring boot best practices. Don't make unnecessary the code changes/refactoring. 
 
 For any suggestions, provide the line no, file name and the describe the suggestion. 
-
+```
 Score : 8.5/10
 
 
 #### Better approach 
+```Text
 Act as a Senior Java/Spring Boot engineer.
 
 Context:
@@ -59,7 +61,7 @@ For each finding, provide:
 * Recommendation
 
 If no issues are found, state: "No issues found."
-
+```
 Score: 9.5/10
 
 That's a 9.5–10/10 practical prompt.
