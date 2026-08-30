@@ -125,7 +125,9 @@ You need enough specificity to remove important ambiguity.
 
 ### 8. Constraints (Limitation) 
 
-You must provide the limitation or less it may redesign the entire source code. So it's always better to provide it's constraints.
+You must provide the limitation or less it may redesign the entire source code. So it's always better to provide it's constraints. 
+
+In other words **Constraints define the boundaries of the task and prevent the AI from expanding the scope or suggesting unrelated architectural/code changes.**
 
 ---
 
